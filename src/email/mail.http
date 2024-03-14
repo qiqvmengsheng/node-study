@@ -1,0 +1,9 @@
+
+POST http://localhost:3000/send/mail HTTP/1.1
+Content-Type: application/json
+
+{ 
+  "to":"3209995971@qq.com",
+  "subject":"邮件测试", 
+  "text":"这是测试nodejs的邮件发送"
+}

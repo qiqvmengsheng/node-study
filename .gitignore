@@ -16,6 +16,7 @@ dist-ssr
 coverage
 *.local
 *-lock.*
+config.yaml
 
 /cypress/videos/
 /cypress/screenshots/
